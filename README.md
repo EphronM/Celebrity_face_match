@@ -59,11 +59,16 @@ pip install -r requirements.txt
   python src\02_feature_extraction.py
 ```
 
+**We are using MTCNN as the face detector and VggFace prediction model to extract the feature similarities. Finally using Cosine Similarity, we find the similar celeb face.**
+
+
+
 #### All set to deploy
 
 ```bash
   streamlit run app.py
 ```
+
 
 
 ## Model performence
